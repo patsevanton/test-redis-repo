@@ -5,7 +5,7 @@ resource "yandex_mdb_redis_cluster" "my_cluster" {
 
   config {
     password = "your_password"
-    version  = "6.2"
+    version  = "7.2"
   }
 
   resources {
